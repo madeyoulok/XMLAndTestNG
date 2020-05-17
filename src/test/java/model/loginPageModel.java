@@ -24,7 +24,7 @@ public class loginPageModel extends ModelBase {
 	}
 
 	public WebElement uid() {
-		uid = driver.findElement(By.xpath("input[@id='email']"));
+		uid = driver.findElement(By.xpath("//input[@id='email']"));
 		return uid;
 
 	}
